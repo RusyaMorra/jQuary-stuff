@@ -1,0 +1,1248 @@
+html{
+    width: 100%;
+    height: 31000px;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100%;
+    height: 31000px;
+    background-color: antiquewhite;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+
+.header1{
+    width: 100%;
+    height: 130px;
+  background-image: url(assest/img/wood-2045379_1920.jpg);
+    background-color: saddlebrown;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+
+.tt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.yy{
+    font-size: 50px;
+color: white;
+margin-left: 40px;
+}
+
+
+
+.yy:hover{
+color: seashell;
+opacity: .7;
+}
+.section1{
+    width: 1170px;
+    height: 500px;
+    margin: auto;
+    position: relative;}
+.h1__slickslider{
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+.slickslidertext{
+font-size: 50px;
+ 
+}
+
+
+.wraper{
+    max-width: 1170px;
+    height: 450px;
+    margin: auto;
+    position: relative;
+  
+
+}
+.slider{
+    width: 100%;
+height: 350px;
+
+}
+
+.img1{
+  width: 340px;
+  height: 340px; 
+ 
+ 
+}
+
+/* Слайдер */
+.slick-slider{
+    width: 1170px;
+    height: 500px;
+ 
+  
+
+}
+/* Слайдер запущен */
+.slick-slider.slick-initialized{
+   
+}
+/* Слайдер с точками */
+.slick-slider.slick-dotted{
+ 
+}
+/* Ограничивающая оболочка */
+.slick-list {
+ 
+}
+/* Лента слайдов */
+.slick-track{
+    display: flex;
+    position: absolute;
+ 
+
+ 
+}
+/* Слайд */
+.slick-slide{  
+
+}
+/* Слайд активный (показывается) */
+.slick-slide.slick-active{}
+/* Слайд основной */
+.slick-slide.slick-current{
+    
+}
+/* Слайд по центру */
+.slick-slide.slick-center{
+
+}
+/* Клонированный слайд */
+.slick-slide.slick-cloned{}
+/* Стрелка */
+.slick-arrow{
+
+    font-size:0px;
+    outline: none;
+    border: none;
+    background-color: antiquewhite;
+
+}
+/* Стрелка влево */
+.slick-arrow.slick-prev{
+    position: absolute;
+    bottom: 0px;
+    background-image: url(./assest/img/1486348529-back-backwards-repeat-arrows-arrow_80455\ \(1\).png)  ;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+
+}
+/* Стрелка вправо */
+.slick-arrow.slick-next{
+    position: absolute;
+    
+    bottom: 0px;
+    right: 0px;
+    background-image: url(./assest/img/1486348528-forward-arrows-arrow-front-go_80452\ \(1\).png)  ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+  
+}
+/* Стрелка не активная */
+.slick-arrow.slick-disabled{}
+/* Точки (булиты) */
+.slick-dots{}
+.slick-dots li{}
+/* Активная точка */
+.slick-dots li.slick-active{}
+/* Элемент точки */
+.slick-dots li button{}
+
+.slider__item{
+text-align: center;
+   
+}
+
+.section2{
+width: 100%;
+height: 500px;
+margin-top: 100px;
+position: relative;
+
+}
+
+.wraper2{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.h1__slickslider2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    }
+    .slickslidertext2{
+    font-size: 50px;
+     
+    }
+
+
+
+
+    .img2{
+        width: 200px;
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: darkorange 10px solid;
+    }
+
+  .owl-item{
+    width: 200px;
+    height: 400px;
+  }
+  .owl-stage-outer{
+      padding-bottom: 20px;
+  }
+
+
+
+
+
+
+
+  .section3{
+    width: 100%;
+    height: 700px;
+    margin-top: 130px;
+    position: relative;
+    
+    }
+    
+    .wraper3{
+        position: absolute;
+        width: 100%;
+        height: 500px;
+        margin-top: 20px;
+     
+        
+    }
+    
+    .h1__slickslider3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+        }
+        .slickslidertext3{
+        font-size: 50px;
+         
+        }
+
+
+        .img3{
+            width: 700px;
+            height: 400px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin-left:200px;
+         
+          
+        }
+
+
+
+
+
+
+
+
+        .section4{
+            width: 100%;
+            height: 1300px;
+            margin-top: 130px;
+            position: relative;
+            
+            }
+            
+            .wraper4{
+                position: absolute;
+                width: 100%;
+                height: 2500px;
+                margin-top: 20px;
+             
+                
+            }
+            
+            .h1__slickslider4{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+                
+                }
+                .slickslidertext4{
+                font-size: 50px;
+                }
+
+                .grid-item { width: 550px; }
+
+
+
+
+                .img4{
+                width: 100%;
+                
+                }
+
+
+
+
+
+
+
+
+
+
+
+                .section5{
+                    width: 100%;
+                    height: 700px;
+                    margin-top: 500px;
+                    position: relative;
+                    
+                    }
+                    
+                    .wraper5{
+                        position: absolute;
+                        width: 100%;
+                        height: 500px;
+                        margin-top: 20px;
+
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                     
+                        
+                    }
+                    
+                    .h1__slickslider5{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        
+                        
+                        }
+
+
+                        .slickslidertext5{
+                            font-size: 50px;
+                            }
+
+
+
+
+
+.a1{
+width: 800px;
+height: 250px;
+background-color:darkorange;
+font-size: 60px;
+color:white;
+text-decoration: none;
+border-radius: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.a1:hover{
+background-color:orange;
+opacity: .9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section6{
+    width: 100%;
+    height: 700px;
+    margin-top: 200px;
+    position: relative;
+    
+    }
+    
+    .wraper6{
+        position: absolute;
+        width: 100%;
+        height: 500px;
+        margin-top: 20px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     
+        
+    }
+    
+    .h1__slickslider6{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+        }
+
+
+        .slickslidertext6{
+            font-size: 50px;
+            }
+
+
+
+
+
+            .a2{
+                width: 800px;
+                height: 250px;
+                background-color:darkorange;
+                font-size: 60px;
+                color:white;
+                text-decoration: none;
+                border-radius: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                }
+                
+                .a2:hover{
+                background-color:orange;
+                opacity: .9;
+                }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                .section7{
+                    width: 100%;
+                    height: 700px;
+                    margin-top: 200px;
+                    position: relative;
+                    
+                    }
+                    
+                    .wraper7{
+                        position: absolute;
+                        width: 100%;
+                        height: 500px;
+                        margin-top: 20px;
+                
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                     
+                        
+                    }
+                    
+                    .h1__slickslider7{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        
+                        
+                        }
+                
+                
+                        .slickslidertext7{
+                            font-size: 50px;
+                            }
+                
+                
+.section8{
+width: 100%;
+
+}
+
+
+
+.h1__slickslider8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    }
+
+
+    .slickslidertext8{
+        font-size: 50px;
+        }
+
+
+
+.qq{
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+}
+
+
+                     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section9{
+    width: 100%;
+    height: 700px;
+    margin-top: 200px;
+    position: relative;
+    
+    }
+    
+    .wraper9{
+        position: absolute;
+        width: 100%;
+        height: 500px;
+        margin-top: 20px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     
+        
+    }
+    
+    .h1__slickslider9{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+        }
+
+
+        .slickslidertext9{
+            font-size: 50px;
+            }
+
+
+            form{
+                width: 1170px;
+                height: 600px;
+           
+               margin-top: 60px;
+             
+             display: flex;
+             align-items: center ;
+             justify-content: center;  
+          
+            }
+
+            .form-control{
+                width: 700px;
+                height: 50px;
+            }
+
+            label{
+                font-size: 50px;
+               margin-right:40px ;
+              
+            }
+
+            .form-group{
+                margin-bottom: 50px;
+              
+            }
+
+            input{
+                display: flex;
+                align-items: center ;
+                justify-content: center;  
+                margin-top: 15px;
+                font-size: 30px;
+            }
+            
+
+            ::-webkit-input-placeholder{
+                font-size: 20px;
+            }
+                
+            .btn {
+                width: 350px;
+                height: 70px;
+                background-color:darkorange;
+                font-size: 30px;
+                color:white;
+                text-decoration: none;
+                border-radius: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .btn:hover{
+                background-color:orange;
+                opacity: .9;
+                }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                .section10{
+                    width: 100%;
+                    height: 700px;
+                    margin-top: 200px;
+                    position: relative;
+                    
+                    }
+                    
+                    .wraper10{
+                        position: absolute;
+                        width: 100%;
+                        height: 500px;
+                        top: 0px;
+                
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                     
+                        
+                    }
+                    
+                    .h1__slickslider10{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        
+                        
+                        }
+                
+                
+                        .slickslidertext10{
+                            font-size: 50px;
+                            }
+
+
+
+.js-example-basic-single{
+width:500px;
+height: 100px;
+
+font-size: 30px;
+}                            
+
+
+
+
+
+
+
+.section11{
+    width: 100%;
+    height: 700px;
+    margin-top: 200px;
+    position: relative;
+    
+    }
+    
+    .wraper11{
+        position: absolute;
+        width: 100%;
+        height: 500px;
+        margin-top: 20px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     
+        
+    }
+    
+    .h1__slickslider11{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+        }
+
+
+        .slickslidertext11{
+            font-size: 50px;
+
+        }
+
+        .section12{
+            width: 100%;
+            height: 700px;
+            margin-top: 200px;
+            position: relative;
+            
+            }
+            
+            .wraper12{
+                position: absolute;
+                width: 100%;
+                height: 500px;
+                margin-top: 20px;
+        
+                display: flex;
+                justify-content: center;
+                align-items: center;
+             
+                
+            }
+            
+            .h1__slickslider12{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+                
+                }
+        
+        
+                .slickslidertext12{
+                    font-size: 50px;
+        
+                }
+
+
+
+
+
+
+
+                .section13{
+                    width: 100%;
+                    height: 700px;
+                    margin-top: 200px;
+                    position: relative;
+                    
+                    }
+                    
+                    .wraper13{
+                        position: absolute;
+                        width: 100%;
+                        height: 500px;
+                        margin-top: 20px;
+                
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                     
+                        
+                    }
+                    
+                    .h1__slickslider13{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        
+                        
+                        }
+                
+                
+                        .slickslidertext13{
+                            font-size: 50px;
+                
+                        }
+
+
+
+
+
+
+
+
+
+                        .section14{
+                            width: 100%;
+                            height: 700px;
+                            margin-top: 200px;
+                            position: relative;
+                            
+                            }
+                            
+                            .wraper14{
+                                position: absolute;
+                                width: 100%;
+                                height: 500px;
+                                margin-top: 20px;
+                        
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                             
+                                
+                            }
+                            
+                            .h1__slickslider14{
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                
+                                
+                                }
+                        
+                        
+                                .slickslidertext14{
+                                    font-size: 50px;
+                        
+                                }
+
+
+
+
+
+
+                                .section15{
+                                    width: 100%;
+                                    height: 700px;
+                                    margin-top: 200px;
+                                    position: relative;
+                                    
+                                    }
+                                    
+                                    .wraper15{
+                                        position: absolute;
+                                        width: 100%;
+                                        height: 500px;
+                                        margin-top: 40px;
+                                
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                     
+                                        
+                                    }
+                                    
+                                    .h1__slickslider15{
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        
+                                        
+                                        }
+                                
+                                
+                                        .slickslidertext15{
+                                            font-size: 50px;
+                                
+                                        }
+        
+        
+                                        .section16{
+                                            width: 100%;
+                                            height: 700px;
+                                            margin-top: 200px;
+                                            position: relative;
+                                            
+                                            }
+                                            
+                                            .wraper16{
+                                                position: absolute;
+                                                width: 100%;
+                                                height: 500px;
+                                                margin-top: 40px;
+                                        
+                                                display: flex;
+                                                justify-content: center;
+                                                align-items: center;
+                                             
+                                                
+                                            }
+                                            
+                                            .h1__slickslider16{
+                                                display: flex;
+                                                justify-content: center;
+                                                align-items: center;
+                                                
+                                                
+                                                }
+                                        
+                                        
+                                                .slickslidertext16{
+                                                    font-size: 50px;
+                                        
+                                                }
+
+
+
+
+
+
+
+
+
+
+ .section17{
+      width: 100%;
+ height: 700px;
+ margin-top: 200px;
+   position: relative;
+                                                    
+ }
+.wraper17{
+    
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    margin-top: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+    
+}
+
+.h1__slickslider17{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    }
+
+
+    .slickslidertext17{
+        font-size: 50px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .section18{
+        width: 100%;
+   height: 700px;
+   margin-top: 200px;
+     position: relative;
+                                                      
+   }
+  .wraper18{
+      
+      position: absolute;
+      width: 100%;
+      height: 500px;
+      margin-top: 40px;
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   
+      
+  }
+  
+  .h1__slickslider18{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      
+      }
+  
+  
+      .slickslidertext18{
+          font-size: 50px;
+  
+      }
+  
+
+
+
+
+
+
+
+
+
+      .section19{
+        width: 100%;
+   height: 700px;
+   margin-top: 200px;
+     position: relative;
+                                                      
+   }
+  .wraper19{
+      
+      position: absolute;
+      width: 100%;
+      height: 500px;
+      margin-top: 40px;
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   
+      
+  }
+  
+  .h1__slickslider19{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      
+      }
+  
+  
+      .slickslidertext19{
+          font-size: 50px;
+  
+      }
+
+
+
+
+
+
+
+
+      .section20{
+        width: 100%;
+   height: 700px;
+   margin-top: 200px;
+     position: relative;
+                                                      
+   }
+  .wraper20{
+      
+      position: absolute;
+      width: 100%;
+      height: 500px;
+      margin-top: 40px;
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   
+      
+  }
+  
+  .h1__slickslider20{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      
+      }
+  
+  
+      .slickslidertext20{
+          font-size: 50px;
+  
+      }
+
+
+
+
+
+      .section21{
+        width: 100%;
+   height: 700px;
+   margin-top: 200px;
+     position: relative;
+                                                      
+   }
+  .wraper21{
+      
+      position: absolute;
+      width: 100%;
+      height: 500px;
+      margin-top: 40px;
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   
+      
+  }
+  
+  .h1__slickslider21{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      
+      }
+  
+  
+      .slickslidertext21{
+          font-size: 50px;
+  
+      }
+
+
+      .section22{
+        width: 100%;
+   height: 700px;
+   margin-top: 200px;
+     position: relative;
+                                                      
+   }
+  .wraper22{
+      
+      position: absolute;
+      width: 100%;
+      height: 500px;
+      margin-top: 40px;
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   
+      
+  }
+  
+  .h1__slickslider22{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      
+      }
+  
+  
+      .slickslidertext22{
+          font-size: 50px;
+  
+      }
+
+
+
+    .footer1{
+        width: 100%;
+        height: 300px;
+      background-image: url(assest/img/wood-2045379_1920.jpg);
+        background-color: saddlebrown;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        margin-top: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .uu{
+        display: flex;
+      justify-content: center;
+      align-items: center;
+    }

@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Sortable - Portlets</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <style>
+      html{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        background-color: antiquewhite; 
+        width: 100%;
+        height: 100%;
+      }
+  body {
+    min-width: 520px;
+    background-color:  peru;
+    border-radius: 30px;
+    border: 4px black solid;
+    
+   
+  }
+  img{
+      border-radius: 10px;
+  }
+  .column {
+    width: 170px;
+    float: left;
+    padding-bottom: 100px;
+    cursor: pointer;
+    background-color:darkorange;
+    border-radius: 30px;
+   
+  
+  }
+  .portlet {
+    margin: 0 1em 1em 0;
+    padding: 0.3em;
+    border: 4px black solid;
+    border-radius: 30px;
+
+  }
+  .portlet-header {
+    padding: 0.2em 0.3em;
+    margin-bottom: 0.5em;
+    position: relative;
+  }
+  .portlet-toggle {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -8px;
+  }
+  .portlet-content {
+    padding: 0.4em;
+  }
+  .portlet-placeholder {
+    border: 1px dotted black;
+    margin: 0 1em 1em 0;
+    height: 50px;
+  }
+  </style>
+ 
+</head>
+<body>
+ 
+<div class="column">
+ 
+  <div class="portlet">
+    <div class="portlet-header">Car</div>
+    <div class="portlet-content"> <img src="assest/img/cars/wp.jpg" alt="" width="100px"></div>
+  </div>
+ 
+  <div class="portlet">
+    <div class="portlet-header">News</div>
+    <div class="portlet-content"><img src="assest/img/cars/wp.jpg" alt="" width="100px"></div>
+  </div>
+ 
+</div>
+ 
+<div class="column">
+ 
+  <div class="portlet">
+    <div class="portlet-header">Shopping</div>
+    <div class="portlet-content"><img src="assest/img/cars/wp.jpg" alt="" width="100px"></div>
+  </div>
+ 
+</div>
+ 
+<div class="column">
+ 
+  <div class="portlet">
+    <div class="portlet-header">Links</div>
+    <div class="portlet-content"><img src="assest/img/cars/wp.jpg" alt="" width="100px"></div>
+  </div>
+ 
+  <div class="portlet">
+    <div class="portlet-header">Images</div>
+    <div class="portlet-content"><img src="assest/img/cars/wp.jpg" alt="" width="100px"></div>
+  </div>
+ 
+</div>
+ 
+<div class="column">
+ 
+  <div class="portlet">
+    <div class="portlet-header">Links</div>
+    <div class="portlet-content"><img src="assest/img/cars/wp.jpg" alt="" width="100px"></div>
+  </div>
+ 
+  <div class="portlet">
+    <div class="portlet-header">Images</div>
+    <div class="portlet-content"><img src="assest/img/cars/wp.jpg" alt="" width="100px"></div>
+  </div>
+ 
+</div>
+ 
+<div class="column">
+ 
+  <div class="portlet">
+    <div class="portlet-header">Links</div>
+    <div class="portlet-content"><img src="assest/img/cars/wp.jpg" alt="" width="100px"></div>
+  </div>
+ 
+  <div class="portlet">
+    <div class="portlet-header">Images</div>
+    <div class="portlet-content"><img src="assest/img/cars/wp.jpg" alt="" width="100px"></div>
+  </div>
+ 
+</div>
+ 
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+ <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+ <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+ <script>
+ $( function() {
+   $( ".column" ).sortable({
+     connectWith: ".column",
+     handle: ".portlet-header",
+     cancel: ".portlet-toggle",
+     placeholder: "portlet-placeholder ui-corner-all"
+   });
+
+   $( ".portlet" )
+     .addClass( "ui-widget ui-widget-content ui-helper-clearfix ui-corner-all" )
+     .find( ".portlet-header" )
+       .addClass( "ui-widget-header ui-corner-all" )
+       .prepend( "<span class='ui-icon ui-icon-minusthick portlet-toggle'></span>");
+
+   $( ".portlet-toggle" ).on( "click", function() {
+     var icon = $( this );
+     icon.toggleClass( "ui-icon-minusthick ui-icon-plusthick" );
+     icon.closest( ".portlet" ).find( ".portlet-content" ).toggle();
+   });
+ } );
+ </script>
+</body>
+</html>
